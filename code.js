@@ -4,8 +4,9 @@
     return "Hello, World!";
 }
 */
+//Exercise #2, Step 2 I'm not confident doing. How do I make it red, other than making an obvious error?
 function sayHello() {
-
+    return "";
 }
 
 
