@@ -4,6 +4,9 @@
     return "Hello, World!";
 }
 */
+function sayHello() {
+
+}
 
 
 //FUNCTION EXPRESSION SYNTAX (ASSIGNING AN ANON FUNCTION TO A VARIABLE)//
