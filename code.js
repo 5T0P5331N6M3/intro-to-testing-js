@@ -10,7 +10,7 @@
 const helloWorld = function () {
     return "Hello, World!";
 }
-
+//Exercise 6, How to improve overall function?
 const sayHello = function(input) {
     if(input === "Alex") {
         return "Hello, Alex!";
