@@ -1,18 +1,22 @@
 // helloWorld function 
 //FUNCTION STATEMENT SYNTAX
-//function helloWorld() {
-//    return "Hello, World!";
-//}
-
-
+/*function helloWorld() {
+    return "Hello, World!";
+}
+*/
 
 
 //FUNCTION EXPRESSION SYNTAX (ASSIGNING AN ANON FUNCTION TO A VARIABLE)//
-//Exercise #1
 const helloWorld = function () {
     return "Hello, World!";
 }
-//Exercise #2
-const sayHello = function () {
-    return "";
+
+const sayHello = function(input) {
+    if(input === "Alex") {
+        return "Hello, Alex!";
+    } else if(input === "Pat") {
+        return "Hello, Pat!";
+    } else {
+        return "Hello, Jane!";
+    }
 }
